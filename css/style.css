@@ -27,16 +27,26 @@ header h1{
     width: 80%;
     color: white;
 }
-#time-left h3{
-    padding-top: 10px;
-    text-align: center;
-    color: lightblue;
+#btn-Start{
+    font-size: 20px;
+    margin-top: 16px;
 }
+#time-left{
+    padding-left: 42%;
+    font-size: 42px;
+    color: white;
+}
+#btn-Done{
+    float: right;
+    font-size: 20px;
+    margin-top: 16px;
+}
+
 main{
     margin: 30px auto;
     min-height:60vh;
     width: 80%;
-    background-color:white;
+    background-color:grey;
 }
 main header{
     height: 5vh;
@@ -46,25 +56,22 @@ main header{
     color:orange;
 }
 main ol{
+    line-height: 41px;
     font-size: 26px;
     /* color: white; */
     padding-left: 33%;
     /* text-align: center; */
 }
-main ol li{
-    /* text-align: center; */
-}
 
-
-.bottom{
+.score-Section{
     margin: 30px auto;
     height:6vh;
     width: 80%;
     /* background-color:white; */
     text-align: center;
+    word-spacing: 10px;
+    font-size: 26px;
 }
-#btn{
-    background-color: green;
-    font-size: 36px;
-    padding:0px 83px;
+.score-Section span{
+    padding: 0px 48px;
 }
