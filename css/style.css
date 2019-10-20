@@ -1,5 +1,7 @@
 *{
     margin: 0;
+    /* font-family: 'Press Start 2P', cursive; */
+    font-family: 'PT Mono', monospace;
 }
 body{
     background-image: url(../img/background-theme.jpg);
@@ -46,13 +48,13 @@ main{
     margin: 30px auto;
     min-height:60vh;
     width: 80%;
-    background-color:grey;
+    background-color:rgb(28, 184, 196);
 }
 main header{
     height: 5vh;
     width: 100%;
     text-align: center;
-    background-color:none;
+    background-color:blue;
     color:orange;
 }
 main ol{
@@ -71,6 +73,7 @@ main ol{
     text-align: center;
     word-spacing: 10px;
     font-size: 26px;
+  
 }
 .score-Section span{
     padding: 0px 48px;
