@@ -1,8 +1,14 @@
+$('.enter_link').click(function() { 
+    $(this).parent().fadeOut(500);
+    
+});
+$('#enterBtn').on('click', run);
+
 // start counting down 
 var number = 30;
 var intervalId;
 // start button for start count down seconds 
-$('#btn-Start').on('click', run);
+// $('#btn-Start').on('click', run);
 // $('#btn-Done').on('click', stop);
 
 // main function for decreasing number

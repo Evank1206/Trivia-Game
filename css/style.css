@@ -3,8 +3,36 @@
     /* font-family: 'Press Start 2P', cursive; */
     font-family: 'PT Mono', monospace;
 }
+#splashscreen {
+    position:absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    width:100%;
+    background-color:rgb(255, 255, 255);
+}
+
+#splashscreen .welcome{
+    position: absolute;
+    color: chartreuse;
+    font-size: 31px;
+    top: 23%;
+    right: 22%;
+    text-align: center;
+}
+
+#enterBtn{
+    position: absolute;
+    /* color: chartreuse; */
+    font-size: 69px;
+    /* text-align: center; */
+    right: 44%;
+    top: 57%;
+    background-color: green;
+}
+
 body{
-    background-image: url(../img/background-theme.jpg);
+    background-image: url(../img/entertheme.jpg);
     /* background-position: center; */
     background-repeat: no-repeat;
     background-size: cover;
@@ -73,6 +101,7 @@ main ol{
     text-align: center;
     word-spacing: 10px;
     font-size: 26px;
+    color: white;
   
 }
 .score-Section span{
